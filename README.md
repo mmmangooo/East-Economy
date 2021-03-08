@@ -43,10 +43,41 @@ information and facts - since decision making in B2B situations tend to be focus
 ### User stories
 
 1. As a first time visitor, I want to quickly get information about what services this company offers so that I can decide whether it is worth my time to keep exploring the site
+
+![Wireframe of hero image and subheader underneath on mobile](./readme-assets/readme-images/header-mobile.png)
+
+![Wireframe of hero image and subheader underneath on web](./readme-assets/readme-images/header-web.png)
+
 2. As a potential client, I want to easily access more information about the services this company offers so that I can gather the information needed for my decision making
+
+![Wireframe of information section on mobile](./readme-assets/readme-images/info-mobile.png)
+
+![Wireframe of information section on web](./readme-assets/readme-images/info-web.png)
+
 3. As a potential client, I want to know what existing clients think of this company so that I can see if the company seems to be appreciated by others
-4. As an interested client, I want to be able to easily contact the company so that I can start a conversation about hiring the company 
-5. As a potential client, an interested client or an observer I want to be able to follow the company on social media so that I can see more of what the company does and get updates
-6. As a returning visitor who has deciced to get in touch with the company, I want to be able to navigate immediately to the contact section on the page 
 
+![Wireframe of testimonials section on mobile](./readme-assets/readme-images/testimonials-mobile.png)
 
+![Wireframe of testimonials section on web](./readme-assets/readme-images/testimonials-web.png)
+
+4. As a potential client, I want to know more about the company and their values so that I can decide if they are a good fit for my company
+
+![Wireframe of about section on mobile](./readme-assets/readme-images/about-mobile.png)
+
+![Wireframe of about section on web](./readme-assets/readme-images/about-web.png)
+
+5. As an interested client, I want to be able to easily contact the company so that I can start a conversation about hiring the company
+
+![Wireframe of contact form on mobile](./readme-assets/readme-images/contact-mobile.png)
+
+![Wireframe of contact form on web](./readme-assets/readme-images/contact-web.png)
+
+6. As a potential client, an interested client or an observer I want to be able to follow the company on social media so that I can see more of what the company does and get updates
+
+![Wireframe of social media icons on mobile](./readme-assets/readme-images/social.png)
+
+![Wireframe of social media icons onweb](./readme-assets/readme-images/social-web.png)
+
+7. As a returning visitor who has deciced to get in touch with the company, I want to be able to navigate immediately to the contact section on the page 
+
+![Wireframe of call to action button](./readme-assets/readme-images/cta.png)
