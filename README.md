@@ -81,3 +81,21 @@ information and facts - since decision making in B2B situations tend to be focus
 7. As a returning visitor who has deciced to get in touch with the company, I want to be able to navigate immediately to the contact section on the page 
 
 ![Wireframe of call to action button](./readme-assets/readme-images/cta.png)
+
+
+## Credits
+
+### Content
+
+* Images are found here:
+Photo by Serpstat from Pexels 
+
+Scott Graham from unsplash
+
+Volkan Olmez unsplash
+
+StellrWeb
+
+Lukas Blazek
+
+Sarah Shaffer

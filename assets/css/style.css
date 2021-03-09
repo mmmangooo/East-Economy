@@ -1,0 +1,11 @@
+.header-img-container {
+    background-image: url("../assets/images/header-img3.jpg");
+    width: 100%;
+    height: 60rem;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.header-logo {
+    width: 20%;
+}
