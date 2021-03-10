@@ -88,14 +88,25 @@ information and facts - since decision making in B2B situations tend to be focus
 ### Content
 
 * Images are found here:
-Photo by Serpstat from Pexels 
 
-Scott Graham from unsplash
+Pexels:
 
-Volkan Olmez unsplash
+Photo by Serpstat from 
+
+Sora Shimazaki
+
+
+Unsplash:
+Scott Graham from 
+
+Volkan Olmez
 
 StellrWeb
 
 Lukas Blazek
 
 Sarah Shaffer
+
+NORTHFOLK
+
+Cytonn Photography

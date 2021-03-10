@@ -1,11 +1,45 @@
-.header-img-container {
-    background-image: url("../assets/images/header-img3.jpg");
+
+/*---------------------Headers and text */
+
+h2 {
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+/*------------------Hero/header section */
+
+.hero-img-container {
+    background-image: url("../images/header-img3.jpg");
     width: 100%;
-    height: 60rem;
+    height: 40rem;
     background-size: cover;
     overflow: hidden;
 }
 
 .header-logo {
-    width: 20%;
+    width: 40%;
+    margin: 0 0 0 2rem;
+}
+
+.hero-header {
+    color: #fff;
+    margin: 0 0 0 1rem;
+}
+
+.home-text {
+    margin: 4rem 0.5rem;
+}
+
+
+/*------------------ Bokföring section */
+
+.info-img {
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
+    object-position: 100% 0;
+    overflow: hidden;
 }
