@@ -25,7 +25,7 @@ h3 {
 }
 
 .logo-container {
-   width: 6rem;
+   width: 8rem;
 }
 
 .header-logo {
@@ -36,11 +36,13 @@ h3 {
 .hero-header {
     color: rgb(49, 47, 47);
     margin: 0 0 0 1rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    letter-spacing: 0.04rem;
 }
 
 .hero-subheader{
- margin: 3rem 0 0;
+ margin: 6rem 0 0;
+ font-size: 1rem;
 }
 
 .home-text {
@@ -61,11 +63,25 @@ h3 {
 /*-------------------- Media Queries */
 
 @media (min-width: 576px) {
-    .header-logo {
-        width: 80%;
-    }
+    .logo-container {
+        width: 10rem;
+}
 
     .hero-header {
         font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .logo-container {
+        width: 12rem;
+    }
+    .hero-header {
+        font-size: 1.6rem;
+        margin: 0 0 0 2rem;
+    }
+    .hero-subheader{
+        float: left;
+        margin: 2rem 0 0;
     }
 }
