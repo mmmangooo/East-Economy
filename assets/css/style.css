@@ -1,8 +1,13 @@
+body {
+    text-align: center;
+}
+
 
 /*---------------------Headers and text */
 
 h2 {
     font-size: 1.2rem;
+   
 }
 
 h3 {
@@ -19,14 +24,23 @@ h3 {
     overflow: hidden;
 }
 
+.logo-container {
+   width: 6rem;
+}
+
 .header-logo {
-    width: 40%;
-    margin: 0 0 0 2rem;
+    width: 100%;
+
 }
 
 .hero-header {
-    color: #fff;
+    color: rgb(49, 47, 47);
     margin: 0 0 0 1rem;
+    font-size: 1.2rem;
+}
+
+.hero-subheader{
+ margin: 3rem 0 0;
 }
 
 .home-text {
@@ -34,7 +48,7 @@ h3 {
 }
 
 
-/*------------------ Bokföring section */
+/*------------------ Info section */
 
 .info-img {
     height: 20rem;
@@ -42,4 +56,16 @@ h3 {
     object-fit: cover;
     object-position: 100% 0;
     overflow: hidden;
+}
+
+/*-------------------- Media Queries */
+
+@media (min-width: 576px) {
+    .header-logo {
+        width: 80%;
+    }
+
+    .hero-header {
+        font-size: 1.4rem;
+    }
 }
