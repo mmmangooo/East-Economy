@@ -62,7 +62,7 @@ h3 {
 }
 
 .home-nav-icon {
-    width: 50%;
+    width: 60%;
 }
 
 .icon-link {
@@ -74,12 +74,37 @@ h3 {
 
 /*------------------ Info section */
 
+.info-header-img-container {
+    position: relative;
+    height: 20rem;
+    margin: 2rem 0 0;
+}
+
+.info-header-container {
+    position: relative;
+    bottom: 12rem;
+}
+
 .info-img {
     height: 20rem;
     width: 100%;
     object-fit: cover;
     object-position: 100% 0;
     overflow: hidden;
+}
+
+/*---------------------About section */
+/*
+.portrait-img-container {
+    border-radius: 100%;
+}*/
+
+.portrait-img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    margin: 2rem 0;
+    border: 0.2rem solid rgb(214, 169, 21)
 }
 
 /*-------------------- Media Queries */
