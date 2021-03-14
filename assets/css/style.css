@@ -5,6 +5,10 @@ body {
 
 /*---------------------Headers and text */
 
+h1, h2, h3, p {
+    color: rgb(37, 41, 41);
+}
+
 h2 {
     font-size: 1.2rem;
    
@@ -12,6 +16,12 @@ h2 {
 
 h3 {
     font-size: 1rem;
+}
+
+/*------------------Navbar */
+
+.navbar-collapse {
+    text-align: left;
 }
 
 /*------------------Hero/header section */
@@ -40,15 +50,27 @@ h3 {
     letter-spacing: 0.04rem;
 }
 
-.hero-subheader{
- margin: 6rem 0 0;
- font-size: 1rem;
+/*-------------------- Home section*/
+
+.home-subheader{
+ margin: 2rem 0 2rem;
+ font-size: 1.2rem;
 }
 
 .home-text {
-    margin: 4rem 0.5rem;
+    margin: 1rem 0.5rem 3rem;
 }
 
+.home-nav-icon {
+    width: 50%;
+}
+
+.icon-link {
+    color: rgb(87, 156, 202);
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0.5rem 0 0;
+}
 
 /*------------------ Info section */
 
