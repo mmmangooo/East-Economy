@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     text-align: center;
 }
@@ -6,7 +10,7 @@ body {
 /*---------------------Headers and text */
 
 h1, h2, h3, p {
-    color: rgb(37, 41, 41);
+    color: rgb(48, 49, 49);
 }
 
 h2 {
@@ -53,7 +57,7 @@ h3 {
 /*-------------------- Home section*/
 
 .home-subheader{
- margin: 2rem 0 2rem;
+ margin: 3rem 0 2rem;
  font-size: 1.2rem;
 }
 
@@ -63,6 +67,7 @@ h3 {
 
 .home-nav-icon {
     width: 60%;
+    margin: 2rem 0;
 }
 
 .icon-link {
@@ -75,7 +80,7 @@ h3 {
 /*-------------------Testimonials section */
 
 .omdömen-container {
-    background-color: rgb(230, 204, 119);
+    background-color: rgb(206, 146, 107);
 }
 
 /*------------------ Info section */
@@ -100,17 +105,23 @@ h3 {
 }
 
 /*---------------------About section */
-/*
-.portrait-img-container {
-    border-radius: 100%;
-}*/
+
+.about-container {
+    background-color: rgb(48, 49, 49);
+    padding: 1rem 1rem 2rem;
+    margin: 3rem 0;
+}
+
+.about-text {
+    color: #fff;
+}
 
 .portrait-img {
     width: 10rem;
     height: 10rem;
     border-radius: 100%;
     margin: 2rem 0;
-    border: 0.2rem solid rgb(214, 169, 21);
+    border: 0.2rem solid rgb(209, 183, 98);
 }
 
 /*-------------------- Media Queries */
