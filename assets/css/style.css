@@ -71,9 +71,25 @@ p {
 }
 
 .subheader-container {
-    background-color: rgba(255, 255, 255, 0.5);
+    position: relative;
     margin: 7rem 0 0;
     width: 90%;
+    border-radius: 1.5rem;
+    border: 0.035rem solid rgba(255, 255, 255, 0.466);
+    box-shadow: 0 0 1rem 0 rgba(61, 61, 61, 0.2);
+    overflow: hidden;
+}
+
+/* Code for frosted glass effect comes from: 
+https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
+
+.subheader-container:before {
+    background-color: rgba(255, 255, 255, 0.103);
+    backdrop-filter: blur(10px) saturate(80%) contrast(45%) brightness(130%);
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
 
 .hero-subheader {
