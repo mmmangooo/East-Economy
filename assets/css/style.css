@@ -70,20 +70,19 @@ p {
     color: rgb(51, 54, 61);
 }
 
-.subheader-container {
-    position: relative;
-    margin: 7rem 0 0;
-    width: 90%;
-    border-radius: 1.5rem;
-    border: 0.035rem solid rgba(255, 255, 255, 0.466);
-    box-shadow: 0 0 1rem 0 rgba(61, 61, 61, 0.2);
-    overflow: hidden;
-}
 
 /* Code for frosted glass effect comes from: 
 https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 
-.subheader-container:before {
+.glass-container {
+    position: relative;
+    margin: 10rem 0 0;
+    height: 22rem;
+    box-shadow: 0 0 1rem 0 rgba(61, 61, 61, 0.2);
+    overflow: hidden;
+}
+
+.glass-container:before {
     background-color: rgba(255, 255, 255, 0.103);
     backdrop-filter: blur(10px) saturate(80%) contrast(45%) brightness(130%);
     content: '';
@@ -92,12 +91,26 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
     width: 100%;
 }
 
+.subheader-container {
+    padding-bottom: 22rem;
+}
+
+.subheader-content-container {
+    position: relative;
+    height: 22rem;
+    margin-top: -22rem;
+    z-index: 1030;
+}
+
+.subheader-text {
+    margin: 0;
+}
+
 .hero-subheader {
-    margin: 1rem 0 1rem;
+    margin: 2rem 0 1rem;
     color: rgb(71, 71, 68);
     
 }
-
 
 .home-nav-icon {
     width: 60%;
@@ -108,7 +121,7 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
     color: rgb(87, 156, 202);
     text-decoration: none;
     font-weight: bold;
-    margin: 0.5rem 0 0;
+    margin: 00;
 }
 
 /*-------------------Testimonials section */
@@ -184,7 +197,11 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 }
 
     .hero-header {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
+    }
+
+    .glass-container {
+       margin: 11rem 0 0;
     }
 
     .carousel {
@@ -206,8 +223,18 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
         margin: 0 0 0 2rem;
     }
     .subheader-container {
-        width: 80%;
+        padding-bottom: 20rem;
     }
+
+    .glass-container {
+        height: 20rem;
+    }
+
+     .subheader-content-container {
+        margin-top: -20rem;
+        height: 20rem;
+     }
+
       .contact-form {
         width: 60%;
     }
@@ -217,7 +244,33 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
     .carousel {
         width: 50%;
     }
+
     .subheader-container {
-        width: 60%;
+        padding-bottom: 18rem;
+       
     }
+
+    .glass-container {
+        height: 18rem;
+    }
+
+     .subheader-content-container {
+        margin-top: -18rem;
+        height: 18rem;
+     }
+}
+
+@media screen and (min-width: 1200px) {
+    .subheader-container {
+        padding-bottom: 18rem; 
+    }
+
+    .glass-container {
+        height: 18rem;
+    }
+
+     .subheader-content-container {
+        margin-top: -18rem;
+        height: 18rem;
+     }
 }
