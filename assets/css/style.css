@@ -7,6 +7,7 @@ html {
 
 body {
     text-align: center;
+    background-color: rgb(253, 253, 253);
 }
 
 
@@ -82,7 +83,7 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
     position: relative;
     margin: 8rem 0 0;
     height: 22rem;
-    box-shadow: 0 0 1rem 0 rgba(61, 61, 61, 0.2);
+    /*box-shadow: 0 0 1rem 0 rgba(61, 61, 61, 0.2);*/
     overflow: hidden;
     opacity: 0;
 }
@@ -90,6 +91,7 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 .glass-container:before {
     background-color: rgba(255, 255, 255, 0.103);
     backdrop-filter: blur(10px) saturate(80%) contrast(45%) brightness(130%);
+    filter: drop-shadow(.2rem .2rem .5rem rgb(88, 88, 88));
     content: '';
     position: absolute;
     height: 100%;
@@ -104,7 +106,7 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
     position: relative;
     height: 22rem;
     margin-top: -22rem;
-    z-index: 1030;
+    z-index: 3;
 }
 
 .subheader-text {
@@ -155,16 +157,20 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 /*---------------------About section */
 
 .about-container {
-    background-color: rgb(230, 240, 245);
+    
     padding: 1rem 1rem 2rem;
-    margin: 3rem 0;
 }
+
 .portrait-img {
     width: 10rem;
     height: 10rem;
     border-radius: 100%;
     margin: 2rem 0;
-    border: 0.15rem groove rgb(148, 181, 197);
+    filter: drop-shadow(.2rem .2rem .5rem rgb(88, 88, 88));
+}
+
+.omdömen-container {
+     background-color: rgb(231, 235, 236);
 }
 
 /*------------------ Info section */
@@ -189,13 +195,24 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 }
 
 .info-header {
-    color: rgb(209, 183, 98);
+    /*color: rgb(209, 183, 98);*/
 }
 
 
 
 /*-------------------- Contact section */
+/*
+ .form-back-container {
+    padding-bottom: 22rem;
+}
 
+.form-container {
+    position: relative;
+    height: 22rem;
+    margin-top: -22rem;
+    z-index: 1030;
+}
+*/
 .contact-form {
     border: 0.05rem solid #000;
     border-radius: 3rem;
