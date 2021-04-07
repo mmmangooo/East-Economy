@@ -64,12 +64,11 @@ p {
 }
 
 .hero-header {
-  font-family: "Lato", sans-serif;
   font-weight: 700;
   margin: 0 0 0 0.7rem;
   font-size: 1.8rem;
   letter-spacing: 0.1rem;
-  color: rgb(60, 99, 150);
+  color: #3d3f3f;
   text-shadow: #3d3f3f;
 }
 
@@ -108,13 +107,14 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 
 .subheader-text {
   margin: 0;
+  font-weight: 500;
+  font-size: 1rem;
 }
 
 .hero-subheader {
   margin: 2.5rem 0 1rem;
-  color: rgb(71, 71, 68);
-  letter-spacing: 0.03rem;
-  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.04rem;
+  font-weight: 600;
 }
 
 .home-nav-icon-container {
@@ -130,6 +130,7 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 .icon-link {
   color: #3d3f3f;
   text-decoration: none;
+  font-weight: 600;
   /*margin: 0 auto 1rem;*/
 }
 
