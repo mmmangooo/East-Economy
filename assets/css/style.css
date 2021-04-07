@@ -1,15 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700 &family=Montserrat:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@300;400;500&family=Noto+Sans+JP:wght@300;400&family=Poppins:wght@300;400&display=swap");
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    text-align: center;
-    background-color: rgb(253, 253, 253);
+  text-align: center;
+  background-color: rgb(253, 253, 253);
 }
-
 
 /*---------------------Headers and text */
 
@@ -17,128 +15,169 @@ h1,
 h2,
 h3,
 p {
-    color: #444B54;
-    font-family: 'Lato', sans-serif;
+  color: #444b54;
+  font-family: "Lato", sans-serif;
 }
 
 h2 {
-    font-size: 1.2rem;
-
+  font-size: 1.2rem;
 }
 
 h3 {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 p {
-    font-size: 0.9rem;
-    font-family: 'Roboto', sans-serif;
+  font-size: 0.9rem;
+  font-family: "Roboto", sans-serif;
 }
 
 /*------------------Navbar */
 
 .navbar-collapse {
-    text-align: left;
+  text-align: left;
 }
 
 /*------------------Hero section */
 
 .hero-container {
-    background-image: url("../images/header-img3.jpg");
-    background-attachment: fixed;
-    width: 100%;
-    height: 52rem;
-    background-size: cover;
-    background-position: center center;
-    overflow: hidden;
-    position: relative;
+  background-image: url("../images/header-img3.jpg");
+  background-attachment: fixed;
+  width: 100%;
+  height: 52rem;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  position: relative;
 }
 
 .logo-container {
-    width: 8rem;
+  width: 8rem;
 }
 
 .header-logo {
-    width: 100%;
+  width: 100%;
 }
 
 .logo-row {
-    margin: 10rem 0 0;
+  margin: 10rem 0 0;
 }
 
 .hero-header {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    margin: 0 0 0 0.7rem;
-    font-size: 1.6rem;
-    letter-spacing: 0.08rem;
-    color: rgb(60, 99, 150);
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  margin: 0 0 0 0.7rem;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  color: rgb(60, 99, 150);
+  text-shadow: #3d3f3f;
 }
-
 
 /* Code for frosted glass effect comes from: 
 https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 
 .glass-container {
-    position: relative;
-    margin: 8rem 0 0;
-    height: 22rem;
-    /*box-shadow: 0 0 1rem 0 rgba(61, 61, 61, 0.2);*/
-    overflow: hidden;
-    opacity: 0;
+  position: relative;
+  margin: 8rem 0 0;
+  height: 22rem;
+  /*box-shadow: 0 0 1rem 0 rgba(61, 61, 61, 0.2);*/
+  overflow: hidden;
+  opacity: 0;
 }
 
 .glass-container:before {
-    background-color: rgba(255, 255, 255, 0.103);
-    backdrop-filter: blur(10px) saturate(80%) contrast(45%) brightness(130%);
-    filter: drop-shadow(.2rem .2rem .5rem rgb(88, 88, 88));
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 100%;
+  background-color: rgba(255, 255, 255, 0.103);
+  backdrop-filter: blur(10px) saturate(80%) contrast(45%) brightness(130%);
+  filter: drop-shadow(0.2rem 0.2rem 0.5rem rgb(88, 88, 88));
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
 
 .subheader-container {
-    padding-bottom: 22rem;
+  padding-bottom: 22rem;
 }
 
 .subheader-content-container {
-    position: relative;
-    height: 22rem;
-    margin-top: -22rem;
-    z-index: 3;
+  position: relative;
+  height: 22rem;
+  margin-top: -22rem;
+  z-index: 3;
 }
 
 .subheader-text {
-    margin: 0;
+  margin: 0;
 }
 
 .hero-subheader {
-    margin: 2.5rem 0 1rem;
-    color: rgb(71, 71, 68);
-    letter-spacing: 0.03rem;
-    font-family: 'Montserrat', sans-serif;
-
+  margin: 2.5rem 0 1rem;
+  color: rgb(71, 71, 68);
+  letter-spacing: 0.03rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 .home-nav-icon-container {
-    width: 60%;
-    margin: 2rem;
+  width: 60%;
+  margin: 2rem;
 }
 
 .home-nav-icon {
-    width: 3rem;
-    height: 3rem;
+  width: 3rem;
+  height: 3rem;
 }
 
 .icon-link {
-    color: #3d3f3f;
-    text-decoration: none;
-    margin: 0 auto 1rem;
+  color: #3d3f3f;
+  text-decoration: none;
+  /*margin: 0 auto 1rem;*/
 }
 
 /*-------------------Testimonials section */
 
+/* Code for speech bubble comes from https://codepen.io/Founts/pen/gmhcl */
+.talk-bubble {
+  margin: 40px;
+  display: inline-block;
+  position: relative;
+  width: 80%;;
+  height: auto;
+  background-color: rgb(245, 226, 165);
+  border-radius: 50px;
+  padding: 0.8rem;
+  filter: drop-shadow(0.05rem 0.05rem 0.3rem rgb(158, 157, 157));
+
+}
+
+.tri-right.border.right-in:before {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: -40px;
+  top: 30px;
+  bottom: auto;
+  border: 20px solid;
+  border-color: #666 transparent transparent #666;
+}
+.tri-right.right-in:after {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: -20px;
+  top: 38px;
+  bottom: auto;
+  border: 12px solid;
+  border-color: rgb(241, 217, 138) transparent transparent rgb(241, 217, 138);
+}
+
+.talk-bubble p {
+  color: #6b6a5d;
+  font-style: italic;
+}
 
 /*
 .carousel {
@@ -157,36 +196,31 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 /*---------------------About section */
 
 .about-container {
-    
-    padding: 1rem 1rem 2rem;
+  padding: 1rem 1rem 2rem;
 }
 
 .portrait-img {
-    width: 10rem;
-    height: 10rem;
-    border-radius: 100%;
-    margin: 2rem 0;
-    filter: drop-shadow(.2rem .2rem .5rem rgb(88, 88, 88));
-}
-
-.omdömen-container {
-     background-color: rgb(231, 235, 236);
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100%;
+  margin: 2rem 0;
+  filter: drop-shadow(0.2rem 0.2rem 0.5rem rgb(88, 88, 88));
 }
 
 /*------------------ Info section */
 
 .card {
-    width: 90%;
-    margin: 2rem auto;
-    filter: drop-shadow(.1rem .1rem .2rem #000));
+  width: 90%;
+  margin: 2rem auto;
+  filter: drop-shadow(0.1rem 0.1rem 0.3rem rgb(155, 151, 151));
 }
 
 .info-img {
-    height: 20rem;
-    width: 100%;
-    object-fit: cover;
-    object-position: center 0;
-    overflow: hidden;
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
+  object-position: center 0;
+  overflow: hidden;
 }
 
 /*-------------------- Contact section */
@@ -203,73 +237,70 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 }
 */
 .contact-form {
-    border: 0.05rem solid #000;
-    border-radius: 3rem;
-    padding: 3rem 2rem;
-    margin: 2rem 0;
+  border: 0.05rem solid #000;
+  border-radius: 3rem;
+  padding: 3rem 2rem;
+  margin: 2rem 0;
 }
 
 /*-------------------- Media Queries */
 
 @media screen and(min-width: 576px) {
-    .logo-container {
-        width: 10rem;
-    }
+  .logo-container {
+    width: 10rem;
+  }
 
-    .hero-header {
-        font-size: 1.6rem;
-    }
+  .hero-header {
+    font-size: 1.6rem;
+  }
 
-    .glass-container {
-        margin: 11rem 0 0;
-    }
+  .glass-container {
+    margin: 11rem 0 0;
+  }
 
-    .carousel {
-        width: 70%;
-        margin: 0 auto;
-    }
+  .carousel {
+    width: 70%;
+    margin: 0 auto;
+  }
 
-    .contact-form {
-        width: 80%;
-    }
+  .contact-form {
+    width: 80%;
+  }
 }
 
 @media screen and(min-width: 768px) {
-    .logo-container {
-        width: 12rem;
-    }
-    .hero-header {
-        font-size: 1.6rem;
-        margin: 0 0 0 2rem;
-    }
-    .subheader-container {
-        padding-bottom: 20rem;
-    }
+  .logo-container {
+    width: 12rem;
+  }
+  .hero-header {
+    font-size: 1.6rem;
+    margin: 0 0 0 2rem;
+  }
+  .subheader-container {
+    padding-bottom: 20rem;
+  }
 
-    .subheader-text {
-        font-size: 1rem;
-    }
+  .subheader-text {
+    font-size: 1rem;
+  }
 
-    .glass-container {
-        height: 20rem;
-        margin: 6rem 0 0;
-    }
+  .glass-container {
+    height: 20rem;
+    margin: 6rem 0 0;
+  }
 
-    .subheader-content-container {
-        margin-top: -20rem;
-        height: 20rem;
-    }
+  .subheader-content-container {
+    margin-top: -20rem;
+    height: 20rem;
+  }
 
-    .contact-form {
-        width: 60%;
-    }
+  .contact-form {
+    width: 60%;
+  }
 }
 
 @media screen and(min-width: 991px) {
-    .carousel {
-        width: 50%;
-    }
-
- 
+  .carousel {
+    width: 50%;
+  }
 }
-
