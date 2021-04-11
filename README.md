@@ -91,13 +91,13 @@ information and facts - since decision making in B2B situations tend to be focus
 
 Pexels:
 
-Photo by Serpstat from 
+Photo by Serpstat 
 
 Sora Shimazaki
 
 
 Unsplash:
-Scott Graham from 
+Scott Graham 
 
 Volkan Olmez
 
@@ -110,3 +110,5 @@ Sarah Shaffer
 NORTHFOLK
 
 Cytonn Photography
+
+Damian Zaleski
