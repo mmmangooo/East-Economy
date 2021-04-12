@@ -19,7 +19,7 @@ var glassContainer = document.getElementById('glass-container');
 opacity = Number(window.getComputedStyle(glassContainer).getPropertyValue('opacity'));
 
 if (opacity < 1) {
-opacity = opacity + 0.2;
+opacity = opacity + 0.22;
 glassContainer.style.opacity = opacity;
 } else {
     clearInterval(intervalId);

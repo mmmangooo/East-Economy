@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@300;400;500&family=Noto+Sans+JP:wght@300;400&family=Poppins:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Nunito:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@300;400&family=Poppins:wght@300;400&display=swap");
 
 html {
   scroll-behavior: smooth;
@@ -6,7 +6,7 @@ html {
 
 body {
   text-align: center;
-  background-color: rgb(253, 253, 253);
+  background-color: #fdfdfd;
 }
 
 /*---------------------Headers and text */
@@ -16,16 +16,20 @@ h2,
 h3,
 h5,
 p {
-  color: rgb(88, 86, 86);
-  font-family: "Lato", sans-serif;
+  color: #3f3834;
+  font-family: "Nunito", sans-serif;
 }
 
 h2 {
   font-size: 1.2rem;
+  letter-spacing: 0.02rem;
+  font-weight: 600;
 }
 
 h3 {
   font-size: 1rem;
+  letter-spacing: 0.05rem;
+  font-weight: 600;
 }
 
 p {
@@ -36,7 +40,7 @@ p {
 
 hr {
   width: 80%;
-  color: rgb(121, 120, 120);
+  color: #4b4948;
   margin: 1rem auto;
   border-bottom: solid 0.2rem;
   border-radius: 100%;
@@ -80,7 +84,7 @@ hr {
   margin: 0 0 0 0.7rem;
   font-size: 1.8rem;
   letter-spacing: 0.1rem;
-  color: rgb(14, 89, 160);
+
 }
 
 /* Code for frosted glass effect comes from: 
@@ -95,9 +99,9 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 }
 
 .glass-container:before {
-  background-color: rgba(255, 255, 255, 0.103);
+  background-color: #ffffff1a;
   backdrop-filter: blur(10px) saturate(80%) contrast(45%) brightness(130%);
-  filter: drop-shadow(0.2rem 0.2rem 0.5rem rgb(88, 88, 88));
+  filter: drop-shadow(0.2rem 0.2rem 0.5rem #585858);
   content: "";
   position: absolute;
   height: 100%;
@@ -119,14 +123,12 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 .hero-subheader {
   margin: 2.5rem 0 0;
   letter-spacing: 0.03rem;
-  font-weight: 600;
-  color:rgb(80, 78, 78);
 }
 
 .subheader-text {
   margin: 0;
   font-weight: 500;
-  font-size: .85rem;
+  font-size: .9rem;
 }
 
 .home-nav-icon-container {
@@ -137,60 +139,24 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 .home-nav-icon {
   width: 3rem;
   height: 3rem;
-  filter: drop-shadow(0.2rem 0.2rem 0.5rem rgb(190, 190, 190));
+  filter: drop-shadow(0.2rem 0.2rem 0.5rem #bebebe);
 }
 
 .icon-link {
-  color: rgb(80, 78, 78);
+  color: #504e4e;
   text-decoration: none;
   font-weight: 400;
   letter-spacing: 0.02rem;
   font-size: 1.1rem;
+  font-weight: 500;
 }
 
 .icon-link:hover, .icon-link:active {
-  color: rgb(129, 125, 125);
+  color: #817d7d;
 }
 
 
-/*---------------------About section */
 
-.about-container {
-  padding: 2rem 1rem 2rem;
-}
-
-.portrait-img {
-  width: 10rem;
-  height: 10rem;
-  border-radius: 100%;
-  filter: drop-shadow(0.2rem 0.2rem 0.5rem rgb(88, 88, 88));
-}
-
-/*------------------ Info section */
-
-
-.card {
-  width: 90%;
-  margin: 2rem auto;
-  filter: drop-shadow(0.1rem 0.1rem 0.3rem rgb(155, 151, 151));
-  border-radius: 3%;
-}
-
-.card h3 {
-  font-weight: bold;
-}
-
-.info-img {
-  height: 20rem;
-  width: 100%;
-  object-fit: cover;
-  object-position: center 0;
-  overflow: hidden;
-}
-
-.info-left {
- text-align: left;
-}
 
 /*-------------------Testimonials section */
 
@@ -200,10 +166,10 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
   position: relative;
   width: 90%;
   height: auto;
-  background: rgb(247, 253, 255);
+  background: #f7fdff;
   border-radius: 60px;
   padding: 1.2rem 0.9rem 0.6rem;
-  filter: drop-shadow(0.05rem 0.05rem 0.3rem rgb(158, 157, 157));
+  filter: drop-shadow(0.05rem 0.05rem 0.3rem #9e9d9d);
 }
 
 .tri-right.border.right-in:before {
@@ -228,7 +194,7 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
   top: 42px;
   bottom: auto;
   border: 12px solid;
-  border-color: rgb(247, 253, 255) transparent transparent rgb(247, 253, 255);
+  border-color: #f7fdff transparent transparent #f7fdff;
 }
 
 .talk-bubble p {
@@ -238,6 +204,43 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 
 .testimonials-img {
   width: 50%;
+}
+
+/*---------------------About section */
+
+.about-container {
+  padding: 2rem 1rem 2rem;
+  background: #e5f1f3;
+}
+
+.portrait-img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100%;
+  filter: drop-shadow(0.2rem 0.2rem 0.5rem #585858);
+}
+
+/*------------------ Info section */
+
+
+.card {
+  width: 90%;
+  margin: 2rem auto;
+  filter: drop-shadow(0.1rem 0.1rem 0.3rem #9b9797);
+  border-radius: 3%;
+}
+
+
+.info-img {
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
+  object-position: center 0;
+  overflow: hidden;
+}
+
+.info-left {
+ text-align: left;
 }
 
 /*-------------------- Contact section */
@@ -252,7 +255,7 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
   display: flex;
   align-items: center;
   justify-content: center;
-  filter: drop-shadow(0.1rem 0.1rem 0.3rem rgb(155, 151, 151));
+  filter: drop-shadow(0.1rem 0.1rem 0.3rem #9b9797);
 }
 
 .contact-img {
@@ -262,17 +265,17 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 
 .contact-form {
   padding: 2rem 1rem;
-  font-family: 'Poppins', sans-serif;
-  border: 0.001rem solid rgb(211, 205, 205);
+  border: 0.001rem solid #d3cdcd;
   border-radius: .5rem;
-  box-shadow: .5rem .5rem .5rem rgb(211, 205, 205);
-  color: rgb(121, 120, 120);
+  box-shadow: .5rem .5rem .5rem #d3cdcd;
+  color: #3f3834;
   
 }
 
 ::placeholder {
-  color: rgb(121, 120, 120);
+  color: #4e4d4d;
   font-size: 0.9rem;
+  letter-spacing: 0.05rem;
 }
 
 .contact-info {
@@ -286,8 +289,8 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 }
 
 .btn-primary:hover {
-    background-color: rgb(241, 206, 7);
-    border-color: rgb(236, 202, 6);
+    background-color: #ecd586;
+    border-color: #ecd586;
 }
 
 /* ---------------------------Footer */
@@ -319,11 +322,6 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
     margin: 0;
   }
 
- /* .carousel {
-    width: 70%;
-    margin: 0 auto;
-  }*/
-
   .testimonials-img {
     width: 80%;
   }
@@ -348,7 +346,7 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
   }
 
   .subheader-text {
-    font-size: 1rem;
+    font-size: .95rem;
     margin: 0 auto;
     width: 80%;
   }
@@ -365,7 +363,7 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
     height: 80%;
     border-radius: 1rem;
     margin: 2rem 0;
-    box-shadow: 0.05rem 0.05rem 0.05rem  rgb(179, 178, 178);
+    box-shadow: 0.05rem 0.05rem 0.05rem  #b3b2b2;
   }
 
   .subheader-content-container {
@@ -402,9 +400,7 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
   .subheader-text {
     width: 60%;
   }
- /* .carousel {
-    width: 50%;
-  }*/
+
   .testimonials-img {
   width: 60%;
 }
@@ -413,8 +409,8 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 }
 
 .portrait-img {
-   width: 15rem;
-   height: 15rem;
+   width: 12rem;
+   height: 12rem;
 }
 
 .talk-bubble {
