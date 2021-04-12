@@ -36,7 +36,7 @@ p {
 
 hr {
   width: 80%;
-  color: rgb(159, 201, 206);
+  color: rgb(121, 120, 120);
   margin: 1rem auto;
   border-bottom: solid 0.2rem;
   border-radius: 100%;
@@ -50,7 +50,7 @@ hr {
   text-align: left;
 }
 
-/*------------------Hero section */
+/*------------------Home section */
 
 .hero-container {
   background-image: url("../images/header-img3.jpg");
@@ -69,7 +69,6 @@ hr {
 
 .header-logo {
   width: 100%;
-  
 }
 
 .logo-row {
@@ -82,7 +81,6 @@ hr {
   font-size: 1.8rem;
   letter-spacing: 0.1rem;
   color: rgb(14, 89, 160);
-
 }
 
 /* Code for frosted glass effect comes from: 
@@ -118,17 +116,17 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
   padding: 0 2rem 0;
 }
 
-.subheader-text {
-  margin: 0;
-  font-weight: 500;
-  font-size: .9rem;
-}
-
 .hero-subheader {
   margin: 2.5rem 0 0;
   letter-spacing: 0.03rem;
-  font-weight: 400;
+  font-weight: 600;
   color:rgb(80, 78, 78);
+}
+
+.subheader-text {
+  margin: 0;
+  font-weight: 500;
+  font-size: .85rem;
 }
 
 .home-nav-icon-container {
@@ -145,7 +143,7 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 .icon-link {
   color: rgb(80, 78, 78);
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 0.02rem;
   font-size: 1.1rem;
 }
@@ -180,11 +178,6 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 
 .card h3 {
   font-weight: bold;
-  color: rgb(121, 120, 120);
-}
-
-.card p {
-  color: rgb(121, 120, 120);
 }
 
 .info-img {
@@ -200,10 +193,6 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 }
 
 /*-------------------Testimonials section */
-
-#testimonials hr {
-  color: rgb(190, 216, 219);
-}
 
 /* Code for speech bubble comes from https://codepen.io/Founts/pen/gmhcl */
 .talk-bubble {
@@ -251,21 +240,6 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
   width: 50%;
 }
 
-/*
-.carousel {
-    padding: 2rem;
-}
-
-.carousel-indicator {
-    margin-top: 2rem;
-}
-
-.carousel-control-next,
-.carousel-control-prev {
-    margin: -1rem;
-}*/
-
-
 /*-------------------- Contact section */
 
 .contact-header {
@@ -302,14 +276,12 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 }
 
 .contact-info {
-  font-size: 1rem;
-  margin: 0 0 2rem 1.5rem; 
-  text-align: left;
+  font-size: 1.2rem;
 }
 
 .btn-primary {
-  background-color:rgb(228, 198, 101);
-  border-color: rgb(228, 198, 101);
+  background-color:#E7C55A;
+  border-color: #E7C55A;
   
 }
 
