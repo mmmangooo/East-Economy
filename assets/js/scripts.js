@@ -26,3 +26,14 @@ glassContainer.style.opacity = opacity;
 }
 }
 
+/* Show on scroll functionality, credit: 
+https://stackoverflow.com/questions/20307555/how-to-make-text-appear-on-scroll-in-html/20308531 */
+/*
+var body = document.getElementsByTagName('body')[0];
+var parent = document.getElementById('parent-div');
+var child = document.getElementById('child-div');
+body.onscroll = function(){
+    if(document.documentElement.scrollTop>=child.offsetTop) {
+        child.style.display='block';
+    }
+};*/
