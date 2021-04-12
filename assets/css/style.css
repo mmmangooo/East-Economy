@@ -14,6 +14,7 @@ body {
 h1,
 h2,
 h3,
+h5,
 p {
   color: rgb(88, 86, 86);
   font-family: "Lato", sans-serif;
@@ -35,8 +36,8 @@ p {
 
 hr {
   width: 80%;
-  color: rgb(228, 198, 101);
-  margin: 0 auto;
+  color: rgb(159, 201, 206);
+  margin: 1rem auto;
   border-bottom: solid 0.2rem;
   border-radius: 100%;
   
@@ -44,19 +45,9 @@ hr {
 
 /*------------------Navbar */
 
-.nav-wrapper {
-  height: 4rem;
-  overflow: hidden;
-}
-.navbar-collapse {
-  text-align: left;
-  overflow: hidden;
-  height: 4rem;
-}
 
-.navbar {
-  height: 4rem;
-  overflow: hidden;
+ .navbar-collapse {
+  text-align: left;
 }
 
 /*------------------Hero section */
@@ -174,7 +165,6 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
   width: 10rem;
   height: 10rem;
   border-radius: 100%;
-  margin: 2rem 0;
   filter: drop-shadow(0.2rem 0.2rem 0.5rem rgb(88, 88, 88));
 }
 
@@ -211,6 +201,9 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 
 /*-------------------Testimonials section */
 
+#testimonials hr {
+  color: rgb(190, 216, 219);
+}
 
 /* Code for speech bubble comes from https://codepen.io/Founts/pen/gmhcl */
 .talk-bubble {
@@ -222,8 +215,6 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
   border-radius: 60px;
   padding: 1.2rem 0.9rem 0.6rem;
   filter: drop-shadow(0.05rem 0.05rem 0.3rem rgb(158, 157, 157));
-  
-
 }
 
 .tri-right.border.right-in:before {
@@ -334,7 +325,7 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
   right: 1rem;
   bottom: 1rem;
   width: 15%;
-  border-radius: 100%;
+
 }
 
 /*-------------------- Media Queries */
@@ -352,7 +343,9 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
     margin: 11rem 0 0;
   }
 
-  
+  .portrait-img {
+    margin: 0;
+  }
 
  /* .carousel {
     width: 70%;
@@ -416,6 +409,10 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 
 .contact-form {
   width: 80%;
+}
+
+.cta-btn {
+  width: 8%;
 }
 }
 
