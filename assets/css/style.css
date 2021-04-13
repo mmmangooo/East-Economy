@@ -32,6 +32,7 @@ h1,
 h2,
 h3,
 h5,
+h6,
 p {
   color: #3f3834;
   font-family: "Nunito", sans-serif;
@@ -360,7 +361,7 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 @media(min-width: 576px) {
   .hero-container {
     background-attachment: fixed;
-    height: 100vh;
+    /*height: 100vh;*/
   }
   .logo-container {
     width: 10rem;
@@ -494,4 +495,16 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
   .subheader-content-container {
     right: 17%;
   }
+}
+
+@media (min-width: 1400px) {
+
+ .glass-container:before {
+    left: 50%;  
+   bottom: 25%;
+ }
+ .subheader-content-container {
+  left: 21%;
+  bottom: 10%;
+}
 }
