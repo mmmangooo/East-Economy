@@ -80,9 +80,12 @@ hr {
 
 .hero-container {
   background-image: url("../images/hero-img.jpg");
-  background-attachment: fixed;
+  background-attachment: scroll;
   width: 100%;
   height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-position: center center;
   overflow: hidden;
@@ -337,6 +340,22 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 }
 
 /*-------------------- Media Queries */
+
+@media(max-width: 575px) {
+  .hero-container:before {
+    content: "";
+    background-image: url("../images/hero-img.jpg");
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+}
 
 @media(min-width: 576px) {
   .hero-container {
