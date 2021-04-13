@@ -126,8 +126,8 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 
 .glass-container:before {
   background-color: #ffffff1a;
-  backdrop-filter: blur(10px) saturate(75%) contrast(45%) brightness(130%);
-  filter: drop-shadow(0.2rem 0.2rem 0.5rem #413f3f);
+  backdrop-filter: blur(10px) saturate(80%) contrast(60%) brightness(120%);
+  filter: drop-shadow(0.2rem 0.2rem 0.5rem #333131);
   content: "";
   position: absolute;
   height: 100%;
@@ -187,7 +187,7 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 
 
 .card {
-  width: 90%;
+  width: 95%;
   margin: 2rem auto;
   filter: drop-shadow(0.1rem 0.1rem 0.3rem #9b9797);
   border-radius: 1rem;
@@ -284,7 +284,7 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
-  overflow: hidden;
+  overflow-y: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
