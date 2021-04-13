@@ -126,8 +126,8 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 
 .glass-container:before {
   background-color: #ffffff1a;
-  backdrop-filter: blur(10px) saturate(80%) contrast(45%) brightness(130%);
-  filter: drop-shadow(0.2rem 0.2rem 0.5rem #585858);
+  backdrop-filter: blur(10px) saturate(75%) contrast(45%) brightness(130%);
+  filter: drop-shadow(0.2rem 0.2rem 0.5rem #413f3f);
   content: "";
   position: absolute;
   height: 100%;
@@ -279,8 +279,8 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 
 .contact-header {
   background-image: url('../images/typing.jpg');
-  background-attachment: fixed;
-  height: 10rem;
+  background-attachment: scroll;
+  height: 50vh;
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -359,7 +359,7 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 
 @media(min-width: 576px) {
   .hero-container {
-    background-image: url("../images/hero-img.jpg");
+    background-attachment: fixed;
     height: 100vh;
   }
   .logo-container {
@@ -368,6 +368,11 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 
   .glass-container {
     margin: 11rem 0 0;
+  }
+
+  .glass-container:before {
+    backdrop-filter: blur(10px) saturate(75%) contrast(45%) brightness(130%);
+    filter: drop-shadow(0.2rem 0.2rem 0.5rem #585858);
   }
 
   .portrait-img {
@@ -380,6 +385,7 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 
   .contact-header {
     height: 20rem;
+    background-attachment: fixed;
   }
 
 
