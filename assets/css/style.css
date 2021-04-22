@@ -74,7 +74,7 @@ hr {
 .nav-link {
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
-  max-width: 100vw;
+  max-width: 100vw !important;
 }
 
 /*------------------Home section */
@@ -270,7 +270,7 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 
 .portrait-img {
   width: 10rem;
-  height: 10.5rem;
+  height: 10.7rem;
   border-radius: 100%;
   filter: drop-shadow(0.2rem 0.2rem 0.5rem #585858);
 }
@@ -291,6 +291,7 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
   justify-content: center;
   filter: drop-shadow(0.1rem 0.1rem 0.3rem #9b9797);
   width: 100%;
+  max-width: 100vw !important;
 }
 
 .contact-img {
@@ -474,7 +475,7 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 
 .portrait-img {
    width: 12rem;
-   height: 12.6rem;
+   height: 12.7rem;
 }
 
 .talk-bubble {
