@@ -262,7 +262,7 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 
 .portrait-img {
   width: 10rem;
-  height: 10.7rem;
+  height: 10.5rem;
   border-radius: 100%;
   filter: drop-shadow(0.2rem 0.2rem 0.5rem #585858);
 }
@@ -520,7 +520,7 @@ https://code-boxx.com/simple-css-bounce-effect/ */
 
   .portrait-img {
     width: 12rem;
-    height: 12.7rem;
+    height: 12.5rem;
   }
 
   .talk-bubble {
