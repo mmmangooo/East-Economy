@@ -307,7 +307,7 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 }
 
 .phone-info {
-  font-size: 1rem;
+  font-size: .9rem;
 }
 
 .link-to-top {
@@ -315,10 +315,14 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
   text-decoration: none;
 }
 
+.link-to-top:after {
+  color: #7c7c7c;
+}
+
 .link-to-top p {
   margin-top: 0.5rem;
   font-size: 1rem;
-  color: #686767;
+  color: #7c7c7c;
 }
 
 /* ---------------------------Footer */
