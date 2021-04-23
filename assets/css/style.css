@@ -10,28 +10,12 @@ body {
   min-height: 100%;
 }
 
-/* Show on scroll-divs */
-/*
-#parent-div {
-  position: relative;
-  height: 3000px;
-  width: 100vw;
-}
-
-#child-div {
-  position: relative;
-  top: 1000px;
-  width: 100vw;
-  display: none;
-}
-*/
 /*---------------------Headers and text */
 
 h1,
 h2,
 h3,
-h5,
-h6,
+h4,
 p {
   color: #3f3834;
   font-family: "Nunito", sans-serif;
@@ -123,7 +107,7 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 
 .glass-container:before {
   background-color: #ffffff1a;
-  backdrop-filter: blur(10px) saturate(80%) contrast(60%) brightness(120%);
+  backdrop-filter: blur(10px) saturate(90%) contrast(60%) brightness(120%);
   filter: drop-shadow(0.2rem 0.2rem 0.5rem #333131);
   content: "";
   position: absolute;
@@ -319,17 +303,22 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 
 .btn-primary a {
   text-decoration: none;
-  color: #fff;
+  color: #ffffffea;
+}
+
+.phone-info {
+  font-size: 1rem;
 }
 
 .link-to-top {
-  color: #585858;
+  color: #7c7c7c;
   text-decoration: none;
 }
 
 .link-to-top p {
   margin-top: 0.5rem;
   font-size: 1rem;
+  color: #686767;
 }
 
 /* ---------------------------Footer */
@@ -524,10 +513,7 @@ https://code-boxx.com/simple-css-bounce-effect/ */
     width: 75%;
   }
 
-  .link-to-top {
-    float: left;
-    margin-left: 1.2rem;;
-  }
+ 
 }
 
 @media (min-width: 1200px) {
