@@ -325,9 +325,6 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 .link-to-top {
   color: #585858;
   text-decoration: none;
-  position: absolute;
-  left: 1.2rem;
- 
 }
 
 .link-to-top p {
@@ -525,6 +522,11 @@ https://code-boxx.com/simple-css-bounce-effect/ */
 
   .talk-bubble {
     width: 75%;
+  }
+
+  .link-to-top {
+    float: left;
+    margin-left: 1.2rem;;
   }
 }
 
