@@ -95,11 +95,8 @@ hr {
 }
 
 /* Code for frosted glass effect comes from: 
-https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ 
+https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 
-CSS fading effect adjusted from 
-https://stackoverflow.com/questions/49553072/css-animation-started-via-js-not-working-with-safari
-(Fix from previously used js fading effect, that did not work in Safari) */
 
 .glass-container {
   position: relative;
@@ -107,11 +104,8 @@ https://stackoverflow.com/questions/49553072/css-animation-started-via-js-not-wo
   height: 22rem;
   overflow: hidden;
   opacity: 0;
-  -webkit-transition:  opacity 2s cubic-bezier(.33,1,.68,1);
-  -moz-transition:  opacity 2s cubic-bezier(.33,1,.68,1);
-  -o-transition:  opacity 2s cubic-bezier(.33,1,.68,1);
-  transition:  opacity 2s cubic-bezier(.33,1,.68,1);
-}
+  }
+
 
 .glass-container:before {
   background-color: #ffffff1a;
@@ -122,6 +116,7 @@ https://stackoverflow.com/questions/49553072/css-animation-started-via-js-not-wo
   height: 100%;
   width: 100%;
 }
+
 
 .subheader-container {
   padding-bottom: 22rem;
@@ -392,6 +387,14 @@ https://code-boxx.com/simple-css-bounce-effect/ */
 }
 
 /*-------------------- Media Queries */
+
+@media not all and (min-resolution:.001dpcm) { 
+  @supports (-webkit-appearance:none) {
+      glass-container {
+        opacity: 1;
+      }
+  }
+}
 
 @media (max-width: 575px) {
   .hero-container:before {

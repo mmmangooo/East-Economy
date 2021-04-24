@@ -1,22 +1,8 @@
-/* Trigger CSS fade in effect on hero section glass container. 
-Credit: https://stackoverflow.com/questions/49553072/css-animation-started-via-js-not-working-with-safari
-*/
-
-function startAnimation() {
-    let glassContainer = document.getElementById('glassContainer');
-    glassContainer.style.opacity = 1;
-}
-
-window.onload = startAnimation;
-
-
-
-
 
 /* Fade in glass container on page load, 
    credit for fade effect code: 
    https://www.geeksforgeeks.org/how-to-add-fade-in-effect-using-pure-javascript/ */
-/*
+
 var opacity = 0;
 var intervalId = 0;
 
@@ -30,7 +16,7 @@ function showGlassContainer() {
 
 function fadeIn() {
       
-var glassContainer = document.getElementById('glass-container');
+var glassContainer = document.getElementById('glassContainer');
 opacity = Number(window.getComputedStyle(glassContainer).getPropertyValue('opacity'));
 
 if (opacity < 1) {
@@ -41,4 +27,3 @@ glassContainer.style.opacity = opacity;
 }
 }
 
-*/
