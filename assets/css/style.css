@@ -95,7 +95,11 @@ hr {
 }
 
 /* Code for frosted glass effect comes from: 
-https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
+https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ 
+
+CSS fading effect adjusted from 
+https://stackoverflow.com/questions/49553072/css-animation-started-via-js-not-working-with-safari
+(Fix from previously used js fading effect, that did not work in Safari) */
 
 .glass-container {
   position: relative;
@@ -103,6 +107,10 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
   height: 22rem;
   overflow: hidden;
   opacity: 0;
+  -webkit-transition:  opacity 2s cubic-bezier(.33,1,.68,1);
+  -moz-transition:  opacity 2s cubic-bezier(.33,1,.68,1);
+  -o-transition:  opacity 2s cubic-bezier(.33,1,.68,1);
+  transition:  opacity 2s cubic-bezier(.33,1,.68,1);
 }
 
 .glass-container:before {
@@ -343,34 +351,34 @@ https://code-boxx.com/simple-css-bounce-effect/ */
     transform: translateY(0);
   }
   10% {
-    transform: translateY(-4px);
+    transform: translateY(-.1rem);
   }
   20% {
-    transform: translateY(-8px);
+    transform: translateY(-.2rem);
   }
   30% {
-    transform: translateY(-12px);
+    transform: translateY(-.3rem);
   }
   40% {
-    transform: translateY(-16px);
+    transform: translateY(-.4rem);
   }
   50% {
-    transform: translateY(-20px);
+    transform: translateY(-.5rem);
   }
   60% {
-    transform: translateY(-24px);
+    transform: translateY(-.6rem);
   }
   65% {
-    transform: translateY(-28px);
+    transform: translateY(-.7rem);
   }
   80% {
-    transform: translateY(-32px);
+    transform: translateY(-.8rem);
   }
   90% {
-    transform: translateY(-36px);
+    transform: translateY(-.9rem);
   }
   100% {
-    transform: translateY(-40px);
+    transform: translateY(-1rem);
   }
 }
 .cta-btn {

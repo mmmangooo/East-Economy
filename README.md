@@ -83,32 +83,43 @@ information and facts - since decision making in B2B situations tend to be focus
 ![Wireframe of call to action button](./readme-assets/readme-images/cta.png)
 
 
+## Features
+
+
+### Hero section
+
+### Info section
+
+### Testimonials section
+
+### About section
+
+### Contact section
+
+
+
+
+
 ## Credits
 
 ### Content
+
+
 
 * Images are found here:
 
 Pexels:
 
-Photo by Serpstat 
-
 Sora Shimazaki
 
 
 Unsplash:
-Scott Graham 
 
 Volkan Olmez
 
-StellrWeb
-
-Lukas Blazek
 
 Sarah Shaffer
 
 NORTHFOLK
-
-Cytonn Photography
 
 Damian Zaleski
