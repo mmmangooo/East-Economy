@@ -390,7 +390,7 @@ https://code-boxx.com/simple-css-bounce-effect/ */
 
 @media not all and (min-resolution:.001dpcm) { 
   @supports (-webkit-appearance:none) {
-      glass-container {
+      .glass-container {
         opacity: 1;
       }
   }
