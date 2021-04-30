@@ -71,7 +71,7 @@ hr {
   background-image: url("../images/hero-img.jpg");
   background-attachment: scroll;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-size: cover;
   background-position: center center;
   overflow: hidden;
@@ -131,7 +131,7 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
 .subheader-content-container {
   position: relative;
   height: 22rem;
-  margin-top: -22rem;
+  margin: -22rem auto;
   z-index: 3;
   padding: 0 2rem 0;
 }
