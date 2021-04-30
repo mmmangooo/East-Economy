@@ -97,7 +97,9 @@ information and facts - since decision making in B2B situations tend to be focus
 ### Contact section
 
 
+## Technologies used
 
+https://autoprefixer.github.io/
 
 
 ## Credits
