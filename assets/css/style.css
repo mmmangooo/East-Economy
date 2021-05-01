@@ -379,8 +379,8 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
   right: 1.3rem;
   bottom: 1rem;
   width: 20%;
-  -webkit-filter: drop-shadow(0.1rem 0.1rem 0.3rem #f5f3f3);
-          filter: drop-shadow(0.1rem 0.1rem 0.3rem #f5f3f3);
+  -webkit-filter: drop-shadow(0.1rem 0.1rem 0.3rem #585858);
+          filter: drop-shadow(0.1rem 0.1rem 0.3rem #585858);
   z-index: 1030;
 }
 
