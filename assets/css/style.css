@@ -227,8 +227,8 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
     width: 0;
     height: 0;
     left: auto;
-    right: -40px;
-    top: 30px;
+    right: 40px;
+    top: 0px;
     bottom: auto;
     border: 20px solid;
     border-color: #666 transparent transparent #666;
@@ -241,7 +241,7 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
     height: 0;
     left: auto;
     right: -20px;
-    top: 42px;
+    top: 160px;
     bottom: auto;
     border: 12px solid;
     border-color: #f7fdff transparent transparent #f7fdff;
