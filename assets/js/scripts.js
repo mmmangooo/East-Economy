@@ -63,7 +63,7 @@ function changeTestimonialContent() {
 
     talkBubbleText.innerHTML = talkBubbleText.innerHTML == firstTestimonial.text ? secondTestimonial.text : firstTestimonial.text;
     talkBubbleSpeaker.innerHTML = talkBubbleSpeaker.innerHTML == firstTestimonial.speaker ? secondTestimonial.speaker : firstTestimonial.speaker;
-    testimonialsImage.src = testimonialsImage.src == firstTestimonial.image ? secondTestimonial.image : firstTestimonial.image;
+    testimonialsImage.src = testimonialsImage.src = firstTestimonial.image ? secondTestimonial.image : firstTestimonial.image;
     testimonialsImage.alt =  testimonialsImage.alt == firstTestimonial.image_alt ? secondTestimonial.image_alt : firstTestimonial.image_alt;
     
 }
