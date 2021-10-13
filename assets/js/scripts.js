@@ -49,7 +49,7 @@ let talkBubbleSpeaker = document.getElementById("talk-bubble-speaker")
 let testimonialsImage = document.getElementById("testimonials-img");
 
 // Setting content to the testimonial section when window loads
-window.onload = function() {
+window.onload = function () {
     talkBubbleText.innerHTML = firstTestimonial.text;
     talkBubbleSpeaker.innerHTML = firstTestimonial.speaker;
     testimonialsImage.src = firstTestimonial.image;
@@ -64,6 +64,6 @@ function changeTestimonialContent() {
     talkBubbleText.innerHTML = talkBubbleText.innerHTML == firstTestimonial.text ? secondTestimonial.text : firstTestimonial.text;
     talkBubbleSpeaker.innerHTML = talkBubbleSpeaker.innerHTML == firstTestimonial.speaker ? secondTestimonial.speaker : firstTestimonial.speaker;
     testimonialsImage.src = testimonialsImage.src = firstTestimonial.image ? secondTestimonial.image : firstTestimonial.image;
-    testimonialsImage.alt =  testimonialsImage.alt == firstTestimonial.image_alt ? secondTestimonial.image_alt : firstTestimonial.image_alt;
-    
+    testimonialsImage.alt = testimonialsImage.alt == firstTestimonial.image_alt ? secondTestimonial.image_alt : firstTestimonial.image_alt;
+
 }
