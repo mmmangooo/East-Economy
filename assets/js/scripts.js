@@ -30,14 +30,14 @@ function fadeIn() {
 //   Setting and changing the content in testimonials section 
 
 const testimonials = [{
-        text: "Jag driver en enskild firma och kan varmt rekommendera East Ekonomi, ett tryggt stöd att ha inom redovisning. De bollar gärna idéer, engagerar sig i din verksamhet och planering och är snabba på att svara på mail och frågor. De bemöter dig alltid på ett både professionellt, trevligt och personligt sätt!",
-        speaker: "- Siiri Soveri, ägare av YogaSiiri",
-        image: "./assets/images/woman-coffee.png",
-        image_alt: "Woman dressed in light blue and green, brown hair, drinking from a mug"
+        text: "Sarah har haft en otrolig förmåga att hjälpa mig genom alla moment inom bolaget. Jag är väldigt tacksam för den snabba hjälpen och Sarahs fantastiska flexibilitet i vårt samarbete. Har du tankar på att använda dig av en redovisningsbyrå? Då rekommenderar jag starkt Sarah och East ekonomi!",
+        speaker: "- Theodor Zätterström, ägare av The O AB",
+        image: "./assets/images/man-costume.png",
+        image_alt: "Man in blue collar shirt seen from the front"
     },
     {
         text: "Skötsam och proffsig. Ägna tiden åt det du är bäst på och lämna över bokföringen till ett proffs!",
-        speaker: " - Lars Olsson, ägare av EL-PE 3000",
+        speaker: " - Lars Olsson, ägare av EL-PE 3000 AB",
         image: "./assets/images/working-man.png",
         image_alt: "Man with a yellow workers helmet, holding a spirit level"
     }
