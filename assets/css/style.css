@@ -133,7 +133,6 @@ https://daily-dev-tips.com/posts/css-frosted-glass-credit-card/ */
     height: 22rem;
     margin: -22rem auto;
     z-index: 3;
-    padding: 0 2rem 0;
 }
 
 .hero-subheader {
@@ -619,7 +618,7 @@ https://code-boxx.com/simple-css-bounce-effect/ */
         width: 60%;
     }
     .subheader-content-container {
-        right: 7%;
+        right: 8%;
     }
     .subheader-text {
         width: 60%;
@@ -658,7 +657,7 @@ https://code-boxx.com/simple-css-bounce-effect/ */
         bottom: 25%;
     }
     .subheader-content-container {
-        left: 21%;
+        left: 20%;
         bottom: 10%;
     }
 }
